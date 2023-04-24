@@ -213,9 +213,10 @@ header {
 }
 
 .form-control{
+
     margin-left: 50px;
     width: 80%;
-}
+} 
 
 .container{
     flex: content;
@@ -373,4 +374,69 @@ a{
 
 .svglogo{
     fill: skyblue;
+}
+
+.sidernav {
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  background-color: #111;
+}
+
+.home-data{
+  height: 100%;
+  width: 100%;
+  position: fixed;
+}
+
+.nav-pills .nav-link{
+  border-radius: inherit;
+}
+
+.data-nav {
+  position: relative;
+  width: 75%;
+  left: 250px;
+  top:50px;
+}
+.btn-outline-success {
+  color: blue;
+  border-color: blue;
+  width: 100px;
+}
+
+.btn-outline-success:hover{
+  color: white;
+  background-color: blue;
+  border-color: blue;
+}
+
+.footer-data{
+  position: relative;
+    width: 90%;
+    left: 200px;
+    bottom: 0;
+    top: 130px;
+}
+
+.footer-register{
+  position: relative;
+    width: 90%;
+    left: 200px;
+    bottom: 0;
+    top: 320px;
+}
+
+.close{
+  text-align: center;
+    position: relative;
+    top: 74%;
+    background-color: red;
+    color: white;
+}
+
+.data-nav2 {
+  position: relative;
+  width: 100%;
+  top: -470px;
 }
